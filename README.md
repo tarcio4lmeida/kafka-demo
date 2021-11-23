@@ -5,7 +5,7 @@ Produtor e consumidor kafka
 kafka-topics --bootstrap-server localhost:9092 --list
 
 #criando topicos
-kafka-topics --bootstrap-server localhost:9092 --create --tpoic testejava
+kafka-topics --bootstrap-server localhost:9092 --create --topic testejava
 
 #criando msgs kafka
 kafka-console-producer --broker-list localhost:9092 --topic teste
